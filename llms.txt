@@ -10,12 +10,6 @@ Also known as Michael Elmasian. This is his personal site and digital resume.
 - Sana Benefits and Maxwell Health (health benefits; Maxwell acquired by Sun Life in 2018): joined both as early-stage startups and built PLG motions from scratch. At Sana, built the self-serve acquisition funnel and automated the onboarding and renewal flows. At Maxwell, led an experimentation team and a new product launch.
 - Fidelity: led growth on Fidelity's third largest trading platform. Built a PQL scoring system for financial advisors and RIAs to drive adoption of a freemium tool suite he owned.
 
-## Topics he writes about
-
-- Product-led growth: self-serve motions, activation, PQL frameworks, pricing and packaging
-- Opportunity sizing: comparing churn fixes, acquisition channels and engagement plays on one scale
-- AI for product managers, and PLG for AI products
-
 ## Links
 
 - [Home](https://mikeelmasian.com/)
