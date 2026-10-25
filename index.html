@@ -46,13 +46,13 @@
   section{padding:36px 0;border-top:1px solid var(--hair);}
   h2{font-family:"Archivo",sans-serif;font-weight:600;font-size:26px;letter-spacing:-.02em;margin:0 0 16px;}
   p{margin:0 0 16px;max-width:64ch;}
-  ul.companies{list-style:none;margin:0;padding:0;}
-  ul.companies li{
-    display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--hair);
-  }
-  ul.companies li:last-child{border-bottom:0;}
-  ul.companies .name{font-weight:600;}
-  ul.companies .detail{font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--muted);text-align:right;}
+  .role{padding:18px 0;border-bottom:1px solid var(--hair);}
+  .role:last-child{border-bottom:0;}
+  .role-head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:8px;}
+  .role .name{font-family:"Archivo",sans-serif;font-weight:600;font-size:19px;letter-spacing:-.01em;}
+  .role .detail{font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--muted);}
+  .role ul{margin:0;padding-left:20px;}
+  .role li{margin-bottom:6px;max-width:64ch;}
   .topic{background:var(--panel);border:1px solid var(--hair);border-radius:8px;padding:16px 18px;margin-bottom:12px;}
   .topic h3{font-family:"Archivo",sans-serif;font-size:17px;margin:0 0 4px;}
   .topic p{margin:0;color:var(--muted);font-size:16px;}
@@ -77,12 +77,30 @@
 
   <section>
     <p class="eyebrow">Where I've worked</p>
-    <ul class="companies">
-      <li><span class="name">Clio</span><span class="detail">Legal practice management</span></li>
-      <li><span class="name">Sana Benefits</span><span class="detail">Health benefits</span></li>
-      <li><span class="name">Maxwell Health</span><span class="detail">Acquired by Sun Life</span></li>
-      <li><span class="name">Fidelity</span><span class="detail">Enterprise</span></li>
-    </ul>
+    <div class="role">
+      <div class="role-head"><span class="name">Clio</span><span class="detail">Legal AI</span></div>
+      <ul>
+        <li>Delivered more than 2x the ARR we originally sized for product-led growth influenced revenue in 2026, taking realized impact well past the initial opportunity sizing.</li>
+        <li>Built foundational multi-product cross-sell and targeted expansion moments.</li>
+        <li>Brought legal AI to market as a primary customer acquisition motion in a highly competitive space.</li>
+      </ul>
+    </div>
+    <div class="role">
+      <div class="role-head"><span class="name">Sana Benefits &amp; Maxwell Health</span><span class="detail">Health benefits &middot; Maxwell acquired by Sun Life</span></div>
+      <ul>
+        <li>Joined both as early-stage startups and built product-led growth motions from the ground up.</li>
+        <li>Sana: built the self-serve acquisition funnel from scratch, then automated and reimagined customer onboarding and renewals.</li>
+        <li>Maxwell: led an experimentation team and led a new product launch.</li>
+      </ul>
+    </div>
+    <div class="role">
+      <div class="role-head"><span class="name">Fidelity</span><span class="detail">Trading platforms</span></div>
+      <ul>
+        <li>Led growth on Fidelity's third largest trading platform.</li>
+        <li>Built a PQL scoring system from scratch to evaluate the behaviors of financial advisors and RIAs.</li>
+        <li>Used it to drive adoption of a suite of tools I owned, run as a freemium offering that fed sales and brought those customers onto the platform.</li>
+      </ul>
+    </div>
   </section>
 
   <section>
